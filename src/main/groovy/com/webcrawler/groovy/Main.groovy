@@ -92,7 +92,7 @@ static void task1(){
                 }.get()
 
                 String nomeArquivo = href.split('/').last()
-                File destino = new File('/home/joaopedro/Downloads', nomeArquivo)
+                File destino = new File('/home/joaopedro/Documentos/AceleraZG/web_crawler/Downloads', nomeArquivo)
 
                 destino.bytes = arquivoBaixado
 
@@ -181,7 +181,7 @@ static Void task3(){
     }.get()
 
     String nomeArquivo = href.split('/').last()
-    File destino = new File('/home/joaopedro/Downloads', nomeArquivo)
+    File destino = new File('/home/joaopedro/Documentos/AceleraZG/web_crawler/Downloads', nomeArquivo)
 
     destino.bytes = arquivoXlsxBaixado
 
